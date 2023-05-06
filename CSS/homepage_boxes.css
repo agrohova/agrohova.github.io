@@ -1,0 +1,18 @@
+.articlecontainer1{
+  display:flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  border: 2px solid rgb(255, 183, 0);
+}
+#review{
+  width: 250px;
+  height: 150px;
+  border: 1px solid rgb(3, 109, 13);
+}
+.footercontainer{
+    display: grid;
+    width: 250px;
+    height: 150px;
+    justify-content: space-between;
+  }

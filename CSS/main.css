@@ -1,4 +1,6 @@
 @import “CSS/blogpost”;
+@import "CSS/homepage_boxes";
+@import "CSS/responsive_layout";
 body {
   margin: 25px;
   background-color: rgb(245, 245, 245);
@@ -24,30 +26,4 @@ img {
   width: 400px;
   height: 300px;
   display: flex;
-}
-.articlecontainer{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid rgb(255, 183, 0);
-}
-.articlebox{
-  display:flex;
-  width: 250px;
-  height: 150px;
-  border: 1px rgb(94, 18, 18);
-}
-.titlecontainer{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 250px;
-  height: 150px;
-}
-.footercontainer{
-  display:flex;
-  width: 250px;
-  height: 150px;
 }
