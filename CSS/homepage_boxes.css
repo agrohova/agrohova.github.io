@@ -11,8 +11,8 @@
   border: 1px solid rgb(3, 109, 13);
 }
 .footercontainer{
-    display: grid;
-    width: 250px;
-    height: 150px;
-    justify-content: space-between;
-  }
+  display: grid;
+  width: 250px;
+  height: 150px;
+  justify-content: space-between;
+}
