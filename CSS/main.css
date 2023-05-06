@@ -9,7 +9,7 @@ body {
 }
 @font-face {
   font-family: Aniron;
-  src: "Fonts/anirb.ttf"
+  src: local("anirm"), url("fonts/anirm.ttf")
 }
 h1 {
   font-family: Aniron;
