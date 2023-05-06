@@ -1,6 +1,6 @@
-@import “CSS/blogpost”;
-@import "CSS/homepage_boxes";
-@import "CSS/responsive_layout";
+@import "homepage_boxes.css";
+@import "responsive_layout.css";
+@import "blogpost.css";
 body {
   margin: 25px;
   background-color: rgb(245, 245, 245);
