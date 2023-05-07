@@ -23,7 +23,6 @@
 }
 .homepagetitle{
   display:grid;
-  border: 2px solid yellow;
   grid-template-columns: repeat(5, 1fr);
   margin-bottom: 50px;
   grid-auto-rows: minmax(150px, auto);
@@ -33,7 +32,6 @@
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
-  border: 2px solid red;
   font-size: 26px;
   align-items:center;
 }
