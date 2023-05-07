@@ -6,79 +6,100 @@
         <title>Review 1</title>
     </head>
     <body>
-        <h1>Anna's climbing diaries</h1>
-        <h2>Review of Product X</h2>
-        <p><i>- April 5th 2023, by <a href="#about">Anna</a></i></p>
-        <p>This is some exciting preface...</p>
-            <h3>Review part 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar lacus nisi, quis iaculis quam sagittis vitae. Aliquam a nisi vitae tortor molestie maximus. Aliquam sollicitudin vestibulum mattis. Nulla facilisi. Aenean sed felis id sem ullamcorper rutrum. Cras placerat tincidunt pulvinar. Donec dolor mauris, consequat nec enim tincidunt, aliquet consectetur metus. Morbi tortor mi, vehicula cursus faucibus ac, volutpat et diam. Nullam tincidunt, neque at pretium sagittis, lorem dui fringilla quam, sit amet suscipit nunc nisi sagittis lectus. Aenean posuere aliquam nibh in finibus. Suspendisse aliquam massa eu scelerisque viverra.</p>
-            <h3>Review part 2</h3>
-            <p>Fusce at est dignissim, fringilla tortor aliquet, varius nunc. Proin pretium felis et dolor venenatis, vel tristique felis bibendum. Nam eros diam, tempor eu volutpat eget, iaculis luctus metus. Praesent quis nunc vitae turpis bibendum porttitor. Sed efficitur dictum nunc, at eleifend nisl euismod id. Phasellus accumsan libero a tortor porta gravida. Sed ullamcorper euismod ligula. Praesent non molestie lectus, nec dictum nunc. Aenean faucibus neque ipsum, nec vulputate purus mollis a. Vivamus ut lectus mollis, bibendum sem a, commodo tellus.</p>
-                <h4>Pros</h4>
+        <div class="blogcontainer">
+            <div class="blogheader">
+            <h1>Anna's climbing diaries</h1>
+            </div>
+            <div class="content">
+            <h2>Review of Product X</h2>
+            <p><i>- April 5th 2023, by <a href="#about">Anna</a></i></p>
+            <p>This is some exciting preface...</p>
+                <h3>Review part 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar lacus nisi, quis iaculis quam sagittis vitae. Aliquam a nisi vitae tortor molestie maximus. Aliquam sollicitudin vestibulum mattis. Nulla facilisi. Aenean sed felis id sem ullamcorper rutrum. Cras placerat tincidunt pulvinar. Donec dolor mauris, consequat nec enim tincidunt, aliquet consectetur metus. Morbi tortor mi, vehicula cursus faucibus ac, volutpat et diam. Nullam tincidunt, neque at pretium sagittis, lorem dui fringilla quam, sit amet suscipit nunc nisi sagittis lectus. Aenean posuere aliquam nibh in finibus. Suspendisse aliquam massa eu scelerisque viverra.</p>
+                <h3>Review part 2</h3>
+                <p>Fusce at est dignissim, fringilla tortor aliquet, varius nunc. Proin pretium felis et dolor venenatis, vel tristique felis bibendum. Nam eros diam, tempor eu volutpat eget, iaculis luctus metus. Praesent quis nunc vitae turpis bibendum porttitor. Sed efficitur dictum nunc, at eleifend nisl euismod id. Phasellus accumsan libero a tortor porta gravida. Sed ullamcorper euismod ligula. Praesent non molestie lectus, nec dictum nunc. Aenean faucibus neque ipsum, nec vulputate purus mollis a. Vivamus ut lectus mollis, bibendum sem a, commodo tellus.</p>
+                    <h4>Pros</h4>
+                    <ul>
+                        <li>lightweight</li>
+                        <li>good price</li>
+                        <li>hard-wearing</li>
+                    </ul>
+                    <h4>Cons</h4>
+                    <ul>
+                        <li>could be more comfortable</li>
+                        <li>no clip for headlight</li>
+                        <li>ugly color combinations</li>
+                    </ul>
+                <h3>Conclusion</h3>
+                <p>Phasellus sollicitudin, lorem eget posuere malesuada, arcu nisl mattis justo, non egestas nunc nunc ac urna. Nam augue mauris, malesuada ut sapien ac, bibendum vestibulum dui. Cras condimentum tortor tristique efficitur gravida. Cras at porta velit. Donec at augue pharetra, blandit felis in, lobortis lorem. Phasellus eget molestie libero, at pulvinar erat. Quisque eu sem viverra, varius dolor nec, consectetur lorem. Nam quis elit tincidunt, lacinia nunc eu, finibus dolor. Quisque tellus ex, pulvinar sed aliquet efficitur, venenatis a leo. Vivamus interdum eleifend venenatis.</p>
+                <h3>Which product should I review next?</h3>
+                    <label for="reviewinput">I want to hear about:</label><br>
+                    <input type="text" id="reviewinput"><br><br>
+                    <input type="submit" value="Submit">
+            </div>
+            <div class="newin">
+                <h3>NEW IN:</h3>
                 <ul>
-                    <li>lightweight</li>
-                    <li>good price</li>
-                    <li>hard-wearing</li>
+                    <li>Reviews: <a href="/HTML/blogpost.html">Review 1</a></li>
+                    <li>Topos: <a href="/HTML/blogpost.html">Topo 1</a></li>
+                    <li>Reportages: <a href="/HTML/blogpost.html">Reportage 1</a></li>
                 </ul>
-                <h4>Cons</h4>
+            </div>
+            <div class="about">
+                <h3 id="about">ABOUT</h3>
+                <p>Nulla nulla tellus, tempus eu auctor quis, dapibus ac urna. Maecenas nec efficitur augue. Pellentesque volutpat ante quam, a viverra mauris congue ac. Nunc quis imperdiet nibh, in auctor lorem. Vivamus eleifend ac elit eu interdum. Nam blandit enim metus, ut tincidunt ex iaculis dignissim. Mauris facilisis, odio feugiat porta fermentum, risus nisl lacinia diam, eu ultricies nunc leo et orci.</p>
+            </div>
+            <div class="interest">
+                <h3>I'M MOSTLY INTERESTED IN:</h3>
+                    <input type = "checkbox"> Reviews
+                    <input type = "checkbox"> Topos
+                    <input type = "checkbox"> Reportages
+                    <input type="submit" value="Submit">
+            </div>
+            <div class="connect">
+                <h3>LIKE MY CONTENT? LET'S CONNECT!</h3>
                 <ul>
-                    <li>could be more comfortable</li>
-                    <li>no clip for headlight</li>
-                    <li>ugly color combinations</li>
+                    <li><a href="https://www.instagram.com/ancaaaaak/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/agrohova/" target="_blank">LinkedIn</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
+                    <li><a href="mailto:anna.grohova@gmx.at">E-mail me</a></li>
                 </ul>
-            <h3>Conclusion</h3>
-            <p>Phasellus sollicitudin, lorem eget posuere malesuada, arcu nisl mattis justo, non egestas nunc nunc ac urna. Nam augue mauris, malesuada ut sapien ac, bibendum vestibulum dui. Cras condimentum tortor tristique efficitur gravida. Cras at porta velit. Donec at augue pharetra, blandit felis in, lobortis lorem. Phasellus eget molestie libero, at pulvinar erat. Quisque eu sem viverra, varius dolor nec, consectetur lorem. Nam quis elit tincidunt, lacinia nunc eu, finibus dolor. Quisque tellus ex, pulvinar sed aliquet efficitur, venenatis a leo. Vivamus interdum eleifend venenatis.</p>
-            <h3>Which product should I review next?</h3>
-                <label for="reviewinput">I want to hear about:</label><br>
-                <input type="text" id="reviewinput"><br><br>
-                <input type="submit" value="Submit">
-        <a href="index.html">Back to homepage</a>
-            <h3>NEW IN:</h3>
-            <ul>
-                <li>Reviews: <a href="/HTML/blogpost.html">Review 1</a></li>
-                <li>Topos: <a href="/HTML/blogpost.html">Topo 1</a></li>
-                <li>Reportages: <a href="/HTML/blogpost.html">Reportage 1</a></li>
-            </ul>
-            <h3>I'M MOSTLY INTERESTED IN:</h3>
-                <input type = "checkbox"> Reviews
-                <input type = "checkbox"> Topos
-                <input type = "checkbox"> Reportages
-                <input type="submit" value="Submit">
-            <h3 id="about">ABOUT</h3>
-            <p>Nulla nulla tellus, tempus eu auctor quis, dapibus ac urna. Maecenas nec efficitur augue. Pellentesque volutpat ante quam, a viverra mauris congue ac. Nunc quis imperdiet nibh, in auctor lorem. Vivamus eleifend ac elit eu interdum. Nam blandit enim metus, ut tincidunt ex iaculis dignissim. Mauris facilisis, odio feugiat porta fermentum, risus nisl lacinia diam, eu ultricies nunc leo et orci.</p>
-            <h3>LIKE MY CONTENT? LET'S CONNECT!</h3>
-            <ul>
-                <li><a href="https://www.instagram.com/ancaaaaak/" target="_blank">Instagram</a></li>
-                <li><a href="https://www.linkedin.com/in/agrohova/" target="_blank">LinkedIn</a></li>
-                <li><a href="#newsletter">Newsletter</a></li>
-            </ul>
+            </div>
+        </div>
     </body>
     <footer>
-        <div class = "container">
-            <div class="footer">
+        <div class="footercontainer1">
+            <div class="footer1">
+                <a href="#Reviews">Reviews</a>
+            </div>
+            <div class="footer1">
+                <a href="#Topos">Topos</a>
+            </div>
+            <div class="footer1">
+                <a href="#Reportages">Reportages</a>
+            </div>
+        </div>
+        <div class="footercontainer2">
+            <div class="footer2">
                 <a href="#Search">Search</a>
             </div>
-            <div class="footer">
-                <a href="#Reviewsbox">Reviews</a>
+            <div class="footer2">
+                <a href="#about">About</a>
             </div>
-            <div class="footer">
-                <a href="#Topos">Topos</a>
-                </div>
-            <div class="footer">
-                <a href="#Reportages">Reportages</a>
-                </div>
-            <div class="footer">
-                 <a href="#about">About</a>
-                 </div>
-            <div class="footer">
+            <div class="footer2">
+                <a href="index.html">Homepage</a>
+            </div>
+        </div>
+        <div class="footercontainer3">
+            <div class="footer3">
                 <a href="#newsletter">Newsletter</a>
-                </div>
-            <div class="footer">
+            </div>
+            <div class="footer3">
                 <a href="https://www.instagram.com/ancaaaaak/" target="_blank">Instagram</a>
-                </div>
-            <div class="footer">
+            </div>
+            <div class="footer3">
                 <a href="https://www.linkedin.com/in/agrohova/" target="_blank">LinkedIn</a>
-                </div>
-          </div>
+            </div>
+        </div>
     </footer>
 </html>
