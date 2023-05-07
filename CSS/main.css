@@ -3,7 +3,7 @@
 @import "blogpost.css";
 body {
   margin: 25px;
-  background-color: rgb(245, 245, 245);
+  background-color: white;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16 px;
 }
@@ -13,12 +13,12 @@ body {
 }
 h1 {
   font-family: Aniron;
-  color: rgb(84, 4, 93);
+  color: rgb(116, 17, 127);
   font-size: 32px;
   margin-left: 20px;
 }
 h2 {
-  color: rgb(1, 61, 91);
+  color: rgb(20, 86, 118);
   font-size: 24px;
   margin-left: 20px;
 }
