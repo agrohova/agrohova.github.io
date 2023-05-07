@@ -28,12 +28,12 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  border: 2px solid rgb(255, 183, 0);
 }
 #review{
   width: 250px;
   height: 150px;
-  border: 1px solid rgb(3, 109, 13);
+  border: 5px solid rgb(109, 42, 3);
+  padding: 10px;
   margin: auto;
 }
 .articlecontainer2{
@@ -41,12 +41,12 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  border: 2px solid rgb(255, 183, 0);
 }
 #topo{
   width: 250px;
   height: 150px;
-  border: 1px solid rgb(3, 109, 13);
+  border: 5px solid rgb(9, 84, 16);
+  padding: 10px;
   margin: auto;
 }
 .articlecontainer3{
@@ -54,12 +54,13 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  border: 2px solid rgb(255, 183, 0);
   margin-bottom: 50px;
 }
 #reportage{
   width: 250px;
   height: 150px;
+  border: 5px solid rgb(61, 5, 28);
+  padding: 10px;
   margin: auto;
 }
 .footercontainer1{
