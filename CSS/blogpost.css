@@ -8,11 +8,11 @@
   "ct ct ct at"
   "ct ct ct it"
   "ct ct ct ce";
-  border: 2px solid yellow;
 }
 .blogheader{
   grid-area:hd;
   padding: 30px;
+  place-self: center;
 }
 .content{
   grid-area:ct;
