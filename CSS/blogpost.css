@@ -21,16 +21,20 @@
 .newin{
   grid-area:ni;
   padding: 30px;
+  border: 5px solid rgb(46, 97, 51);
 }
 .about{
   grid-area:at;
   padding: 30px;
+  border: 5px solid rgb(152, 70, 23);
 }
 .interest{
   grid-area:it;
   padding: 30px;
+  border: 5px solid rgb(132, 7, 59);
 }
 .connect{
   grid-area:ce;
   padding: 30px;
+  border: 5px solid rgb(46, 97, 51);
 }

@@ -1,0 +1,13 @@
+/ *Devices between 769 and 1024px width are considered standard and the page was programmed for them* /
+/ *Rules for large screens* /
+@media(min-width:1025px) {
+    body{
+        font-size: 27px;
+    }
+}
+/ *Rules for smaller mobile devices* /
+@media(max-width:768px) {
+    body{
+        font-size: 14px;
+    }
+}
