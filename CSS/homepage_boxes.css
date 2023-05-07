@@ -1,12 +1,10 @@
 .homepageheader{
   display:grid;
+  margin-bottom: 50px;
   grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: minmax(150px, auto);
   grid-template-areas:
-  p1 p2 p3 p4 p5
-  p1 p2 p3 p4 p5
-  p1 p2 p3 p4 p5
-  p1 p2 p3 p4 p5
+  "p1 p2 p3 p4 p5"
 }
 .pic1{
   grid-template-areas: p1;
@@ -25,20 +23,26 @@
 }
 .homepagetitle{
   display:grid;
+  border: 2px solid yellow;
   grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 50px;
   grid-auto-rows: minmax(150px, auto);
-  grid-template-areas:
-  na hq hq hq na
 }
 .headerquote{
-  grid-template-areas: hq;
-  font-size: 32px;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border: 2px solid red;
+  font-size: 26px;
+  align-items:center;
 }
 .articlecontainer1{
   display:flex;
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 #review{
   width: 250px;
@@ -52,6 +56,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 #topo{
   width: 250px;
