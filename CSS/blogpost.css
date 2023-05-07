@@ -12,19 +12,25 @@
 }
 .blogheader{
   grid-area:hd;
+  padding: 30px;
 }
 .content{
   grid-area:ct;
+  padding: 70px;
 }
 .newin{
   grid-area:ni;
+  padding: 30px;
 }
 .about{
   grid-area:at;
+  padding: 30px;
 }
 .interest{
   grid-area:it;
+  padding: 30px;
 }
 .connect{
   grid-area:ce;
+  padding: 30px;
 }

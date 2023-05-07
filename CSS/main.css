@@ -32,3 +32,9 @@ img {
   height: 300px;
   display: flex;
 }
+#pros{
+  color:rgb(14, 106, 32)
+}
+#cons{
+  color:rgb(127, 24, 24)
+}
