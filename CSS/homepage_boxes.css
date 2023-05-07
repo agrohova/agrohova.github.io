@@ -15,6 +15,12 @@ img {
   p1 p2 p3 p4 p5
   p1 p2 p3 p4 p5
 }
+.headerquote{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
 .pictures{
   display:flex;
   align-items: center;
@@ -34,13 +40,6 @@ img {
 }
 .pic5{
   margin: auto;
-}
-.headerquote{
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  background-color: rgba(240, 248, 255, 0.61);
 }
 .articlecontainer1{
   display:flex;
