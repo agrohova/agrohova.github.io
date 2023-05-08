@@ -32,19 +32,19 @@
         "p4 p5 p1"
     }
     #pic1{
-        grid-template-areas: p1;
+        grid-area: p1;
     }
     #pic2{
-        grid-template-areas: p2;
+        grid-area: p2;
     }
     #pic3{
-        grid-template-areas: p3;
+        grid-area: p3;
     }
     #pic4{
-        grid-template-areas: p4;
+        grid-area: p4;
     }
     #pic5{
-        grid-template-areas: p5;
+        grid-area: p5;
     }
     .articlecontainer1{
         flex-wrap: wrap;
@@ -108,19 +108,19 @@
         "p1 p2 p3 p4 p5"
     }
     #pic1{
-        grid-template-areas: p1;
+        grid-area: p1;
     }
     #pic2{
-        grid-template-areas: p2;
+        grid-area: p2;
     }
     #pic3{
-        grid-template-areas: p3;
+        grid-area: p3;
     }
     #pic4{
-        grid-template-areas: p4;
+        grid-area: p4;
     }
     #pic5{
-        grid-template-areas: p5;
+        grid-area: p5;
     }
     #review{
         width: 350px;
