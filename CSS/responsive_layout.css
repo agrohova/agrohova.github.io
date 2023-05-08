@@ -26,10 +26,11 @@
         display: grid;
         margin-bottom: 50px;
         grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: minmax(50px, auto);
+        grid-template-rows: minmax(50px, auto);
+        overflow: hidden;
         grid-template-areas:
         "p1 p2 p3"
-        "p4 p5 p1"
+        "p4 p5 p1";
     }
     #pic1{
         grid-area: p1;
@@ -85,7 +86,7 @@
         "ct ct ct sb sb"
         "ct ct ct sb sb"
         "ct ct ct sb sb"
-        "ct ct ct sb sb"
+        "ct ct ct sb sb";
     }
     .blogheader{
         background-repeat: no-repeat;
@@ -104,8 +105,9 @@
         margin-bottom: 50px;
         grid-template-columns: repeat(5, 1fr);
         grid-auto-rows: minmax(150px, auto);
+        overflow: hidden;
         grid-template-areas:
-        "p1 p2 p3 p4 p5"
+        "p1 p2 p3 p4 p5";
     }
     #pic1{
         grid-area: p1;
