@@ -22,24 +22,24 @@
 .newin{
   grid-area:ni;
   padding: 30px;
-  background-color: solid rgba(46, 97, 51, 0.518) !important;
+  background-color: solid rgba(46, 97, 51, 0.518);
   margin-bottom: 50px;
 }
 .about{
   grid-area:at;
   padding: 30px;
-  background-color: solid rgba(152, 70, 23, 0.467) !important;
+  background-color: solid rgba(152, 70, 23, 0.467);
   margin-bottom: 50px;
 }
 .interest{
   grid-area:it;
   padding: 30px;
-  background-color: solid rgba(132, 7, 59, 0.437) !important;
+  background-color: solid rgba(132, 7, 59, 0.437);
   margin-bottom: 50px;
 }
 .connect{
   grid-area:ce;
   padding: 30px;
-  background-color: solid rgba(46, 97, 51, 0.468) !important;
+  background-color: solid rgba(46, 97, 51, 0.468);
   margin-bottom: 50px;
 }
