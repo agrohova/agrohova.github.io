@@ -29,18 +29,13 @@ h3 {
   font-size: 20px;
   margin-left: 20px;
 }
-img {
-  width: 400px;
-  height: 300px;
-  display: flex;
-}
-#pros{
+#pros {
   color:rgb(14, 106, 32)
 }
-#cons{
+#cons {
   color:rgb(127, 24, 24)
 }
-.responsive{
+.responsive {
 width: 100%;
 height: 400px;
 }
