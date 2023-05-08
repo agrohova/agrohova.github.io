@@ -15,7 +15,7 @@
   grid-area:hd;
   background-image: url("images/pexels-stephan-seeber.jpg");
   background-size: "cover";
-  background-repeat: "no-repeat";
+  text-align: center;
 }
 .content{
   grid-area:ct;
