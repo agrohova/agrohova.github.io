@@ -3,9 +3,12 @@
   margin-bottom: 50px;
   grid-template-columns: repeat(5, 20vw);
   grid-template-rows: repeat(2, 12vw);
+  min-height: 0;
+  min-width: 0;
   grid-template-areas:
   "p1 p2 p3 p4 p5"
   "p1 p2 p3 p4 p5";
+
 }
 #pic1{
   grid-area: p1;
