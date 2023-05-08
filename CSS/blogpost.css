@@ -13,7 +13,7 @@
 .blogheader{
   grid-area:hd;
   background-image: url("images/pexels-stephan-seeber.jpg");
-  background-size: "contain";
+  background-size: "cover";
   background-repeat: "no-repeat";
   background-position: "center";
 }
