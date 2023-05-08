@@ -7,10 +7,11 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16 px;
   line-height: 1.2;
+  text-align: justify;
 }
 @font-face {
   font-family: Aniron;
-  src: local("anirm"), url("fonts/anirm.ttf")
+  src: local("anirm"), url("fonts/anirm.ttf");
 }
 h1 {
   font-family: Aniron;
@@ -29,9 +30,10 @@ h3 {
   margin-left: 20px;
 }
 img {
-  width: 400px;
-  height: 300px;
-  display: flex;
+  max-width: 60%;
+  height: auto;
+  border-radius: 8px;
+  margin: 5px;
 }
 #pros{
   color:rgb(14, 106, 32)
