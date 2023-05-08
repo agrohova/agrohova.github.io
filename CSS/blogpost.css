@@ -12,9 +12,6 @@
 }
 .blogheader{
   grid-area:hd;
-  padding: 30px;
-  justify-self: stretch;
-  align-self: stretch;
   background-image: url("images/pexels-stephan-seeber.jpg");
   background-size: "contain";
   background-repeat: "no-repeat";
