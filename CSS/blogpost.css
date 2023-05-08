@@ -16,7 +16,6 @@
   background-image: url("images/pexels-stephan-seeber.jpg");
   background-size: "cover";
   background-repeat: "no-repeat";
-  background-position: "center";
 }
 .content{
   grid-area:ct;
