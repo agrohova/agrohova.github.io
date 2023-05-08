@@ -13,8 +13,12 @@
 .blogheader{
   grid-area:hd;
   padding: 30px;
-  place-self: center;
-  background-image: url("images/pexels-stephan-seeber.jpg")
+  justify-self: stretch;
+  align-self: stretch;
+  background-image: url("images/pexels-stephan-seeber.jpg");
+  background-size: "contain";
+  background-repeat: "no-repeat";
+  background-position: "center";
 }
 .content{
   grid-area:ct;
