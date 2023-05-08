@@ -26,26 +26,12 @@
         display: grid;
         margin-bottom: 50px;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: minmax(50px, auto);
+        grid-auto-rows: minmax(50px, auto);
+        margin:0 auto;
         overflow: hidden;
         grid-template-areas:
         "p1 p2 p3"
         "p4 p5 p1";
-    }
-    #pic1{
-        grid-area: p1;
-    }
-    #pic2{
-        grid-area: p2;
-    }
-    #pic3{
-        grid-area: p3;
-    }
-    #pic4{
-        grid-area: p4;
-    }
-    #pic5{
-        grid-area: p5;
     }
     .articlecontainer1{
         flex-wrap: wrap;
@@ -108,25 +94,6 @@
         overflow: hidden;
         grid-template-areas:
         "p1 p2 p3 p4 p5";
-    }
-    #pic1{
-        grid-area: p1;
-    }
-    #pic2{
-        grid-area: p2;
-    }
-    #pic3{
-        grid-area: p3;
-    }
-    #pic4{
-        grid-area: p4;
-    }
-    #pic5{
-        grid-area: p5;
-    }
-    #review{
-        width: 350px;
-        height: 260px;
     }
     #topo{
         width: 350px;
