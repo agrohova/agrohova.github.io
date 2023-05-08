@@ -26,12 +26,11 @@
         display: grid;
         margin-bottom: 50px;
         grid-template-columns: repeat(3, 33vw);
-        grid-template-rows: repeat(2, 15vw);
+        grid-template-rows: 25vw;
         margin:0 auto;
         overflow: hidden;
         grid-template-areas:
         "p1 p2 p3"
-        "p4 p5 p1";
     }
     .articlecontainer1{
         flex-wrap: wrap;
@@ -90,7 +89,7 @@
         display:grid;
         margin-bottom: 50px;
         grid-template-columns: repeat(5, 20vw);
-        grid-template-rows: 33vw;
+        grid-template-rows: 20vw;
         overflow: hidden;
         grid-template-areas:
         "p1 p2 p3 p4 p5";
