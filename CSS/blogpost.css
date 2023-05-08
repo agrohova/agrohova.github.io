@@ -14,6 +14,7 @@
   grid-area:hd;
   padding: 30px;
   place-self: center;
+  background-image: url("images/pexels-stephan-seeber.jpg")
 }
 .content{
   grid-area:ct;
