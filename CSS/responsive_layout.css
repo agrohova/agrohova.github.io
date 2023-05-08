@@ -14,11 +14,12 @@
     h3{
     	font-size: 18px
     }
-    img {
-        max-width: 100%;
     /*blogpost*/
     .content{
         padding: 25px;
+    }
+    .img1 {
+        max-width: 100%;
     }
     /*homepage*/
     .homepageheader{
@@ -77,6 +78,9 @@
     .sidebar{
         padding: 70px;
         margin-bottom: 50px;
+    }
+    .img1 {
+        max-width: 50%;
     }
     /*homepage*/
     .homepageheader{

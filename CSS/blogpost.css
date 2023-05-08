@@ -28,6 +28,9 @@
   padding: 30px;
   margin-bottom: 50px;
 }
-<h3>{
-  padding-top: 30px;
+.img1{
+max-width: 60%;
+height: auto;
+border-radius: 8px;
+margin: 5px;
 }

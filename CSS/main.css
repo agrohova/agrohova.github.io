@@ -30,10 +30,9 @@ h3 {
   margin-left: 20px;
 }
 img {
-  max-width: 60%;
-  height: auto;
-  border-radius: 8px;
-  margin: 5px;
+  width: 400px;
+  height: 300px;
+  display: flex;
 }
 #pros{
   color:rgb(14, 106, 32)
