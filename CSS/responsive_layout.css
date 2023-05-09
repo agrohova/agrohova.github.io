@@ -26,9 +26,12 @@
     .homepageheader{
     display: grid;
     margin-bottom: 10px;
-    grid-template-columns: repeat(auto-fit, 33vw);
+    grid-template-columns: repeat(3, 33vw);
     grid-template-rows: repeat(auto-fit,10vw);
     overflow: hidden;
+    grid-template-areas:
+    "p1 p2 p3"
+    "p1 p2 p3";
     }
     .articlecontainer1{
     flex-wrap: wrap;
