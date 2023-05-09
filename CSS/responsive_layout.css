@@ -11,15 +11,16 @@
     }
     h2{
     	font-size: 20px;
+        text-align: left;
     }
     h3{
     	font-size: 18px;
+        text-align: left;
     }
    /*homepage*/
    .responsive {
-    width: 30%;
+    width: 100%;
     min-width: 0;
-    max-height: 30%;
     object-fit: cover;
     }
     .homepageheader{
