@@ -15,32 +15,39 @@
     h3{
     	font-size: 18px;
     }
+   /*homepage*/
+   .responsive {
+    max-width: 30%;
+    min-width: 0;
+    max-height: 30%;
+    object-fit: cover;
+    }
+    .homepageheader{
+    display: grid;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(3, 33vw);
+    grid-template-rows: repeat(2,10vw);
+    margin:0 auto;
+    overflow: hidden;
+    grid-template-areas:
+    "p1 p2 p3"
+    "p4 p5 p1"
+    }
+    .articlecontainer1{
+    flex-wrap: wrap;
+    }
+    .articlecontainer2{
+    flex-wrap: wrap;
+    }
+    .articlecontainer3{
+    flex-wrap: wrap;
+    }
     /*blogpost*/
     .content{
         padding: 25px;
     }
     .img1 {
         max-width: 100%;
-    }
-    /*homepage*/
-    .homepageheader{
-        display: grid;
-        margin-bottom: 50px;
-        grid-template-columns: repeat(3, 33vw);
-        grid-template-rows: 25vw;
-        margin:0 auto;
-        overflow: hidden;
-        grid-template-areas:
-        "p1 p2 p3"
-    }
-    .articlecontainer1{
-        flex-wrap: wrap;
-    }
-    .articlecontainer2{
-        flex-wrap: wrap;
-    }
-    .articlecontainer3{
-        flex-wrap: wrap;
     }
 }
 /*Devices between 769 and 1024px width are considered standard*/
@@ -59,6 +66,28 @@
     }
     h3{
     	font-size: 25px;
+    }
+    /*homepage*/
+    .homepageheader{
+        display:grid;
+        margin-bottom: 50px;
+        grid-template-columns: repeat(5, 20vw);
+        grid-template-rows: 20vw;
+        overflow: hidden;
+        grid-template-areas:
+        "p1 p2 p3 p4 p5";
+    }
+    #topo{
+        width: 350px;
+        height: 260px;
+    }
+    #reportage{
+        width: 350px;
+        height: 260px;
+    }
+    #review{
+        width: 350px;
+        height: 260px;
     }
     /*blogpost*/
     .blogcontainer{
@@ -84,27 +113,5 @@
     }
     .img1 {
         max-width: 50%;
-    }
-    /*homepage*/
-    .homepageheader{
-        display:grid;
-        margin-bottom: 50px;
-        grid-template-columns: repeat(5, 20vw);
-        grid-template-rows: 20vw;
-        overflow: hidden;
-        grid-template-areas:
-        "p1 p2 p3 p4 p5";
-    }
-    #topo{
-        width: 350px;
-        height: 260px;
-    }
-    #reportage{
-        width: 350px;
-        height: 260px;
-    }
-    #review{
-        width: 350px;
-        height: 260px;
     }
 }

@@ -1,18 +1,12 @@
 @import "homepage_boxes.css";
-@import "responsive_layout.css";
 @import "blogpost.css";
-body {
-  margin: 25px;
-  background-color: white;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 16 px;
-  line-height: 1.2;
-  text-align: justify;
-}
+@import "responsive_layout.css";
+/*imported external font*/
 @font-face {
   font-family: Aniron;
   src: local("anirm"), url("fonts/anirm.ttf");
 }
+/*headers*/
 h1 {
   font-family: Aniron;
   color: rgb(116, 17, 127);
@@ -29,16 +23,18 @@ h3 {
   font-size: 20px;
   margin-left: 20px;
 }
+/*text body*/
+body {
+  margin: 25px;
+  background-color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16 px;
+  line-height: 1.2;
+  text-align: justify;
+}
 #pros {
   color:rgb(14, 106, 32)
 }
 #cons {
   color:rgb(127, 24, 24)
-}
-.responsive {
-max-width: 100%;
-min-width: 0;
-max-height: 100%;
-width: 100%;
-object-fit: cover;
 }
