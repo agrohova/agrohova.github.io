@@ -24,14 +24,11 @@
     }
     .homepageheader{
     display: grid;
-    margin-bottom: 50px;
-    grid-template-columns: repeat(3, 33vw);
-    grid-template-rows: repeat(2,10vw);
+    margin-bottom: 510px;
+    grid-template-columns: repeat(auto-fit, 33vw);
+    grid-template-rows: repeat(auto-fit,10vw);
     margin:0 auto;
     overflow: hidden;
-    grid-template-areas:
-    "p1 p2 p3"
-    "p4 p5 p1"
     }
     .articlecontainer1{
     flex-wrap: wrap;
