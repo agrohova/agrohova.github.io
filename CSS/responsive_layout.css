@@ -27,7 +27,7 @@
     display: grid;
     margin-bottom: 10px;
     grid-template-columns: repeat(3, 33vw);
-    grid-template-rows: repeat(auto-fit,10vw);
+    grid-template-rows: repeat(2,10vw);
     overflow: hidden;
     grid-template-areas:
     "p1 p2 p3"
@@ -68,6 +68,11 @@
     	font-size: 25px;
     }
     /*homepage*/
+    .responsive {
+        width: 100%;
+        min-width: 0;
+        object-fit: cover;
+    }
     .homepageheader{
         display:grid;
         margin-bottom: 50px;
