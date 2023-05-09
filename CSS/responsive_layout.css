@@ -44,7 +44,7 @@
         padding: 25px;
     }
     .img1 {
-        max-width: 100%;
+        width: 100%;
     }
 }
 /*Devices between 769 and 1024px width are considered standard*/
@@ -109,6 +109,6 @@
         margin-bottom: 50px;
     }
     .img1 {
-        max-width: 50%;
+        width: 70%;
     }
 }
