@@ -17,7 +17,7 @@
     }
    /*homepage*/
    .responsive {
-    max-width: 30%;
+    width: 30%;
     min-width: 0;
     max-height: 30%;
     object-fit: cover;
@@ -27,7 +27,6 @@
     margin-bottom: 510px;
     grid-template-columns: repeat(auto-fit, 33vw);
     grid-template-rows: repeat(auto-fit,10vw);
-    margin:0 auto;
     overflow: hidden;
     }
     .articlecontainer1{
