@@ -25,7 +25,7 @@
     }
     .homepageheader{
     display: grid;
-    margin-bottom: 510px;
+    margin-bottom: 10px;
     grid-template-columns: repeat(auto-fit, 33vw);
     grid-template-rows: repeat(auto-fit,10vw);
     overflow: hidden;
