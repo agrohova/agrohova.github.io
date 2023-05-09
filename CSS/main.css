@@ -1,6 +1,6 @@
-@import "homepage_boxes.css";
-@import "blogpost.css";
-@import "responsive_layout.css";
+@import "./homepage_boxes.css";
+@import "./blogpost.css";
+@import "./responsive_layout.css";
 /*imported external font*/
 @font-face {
   font-family: Aniron;
