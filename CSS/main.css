@@ -4,7 +4,7 @@
 /*imported external font*/
 @font-face {
   font-family: Aniron;
-  src: local("anirm"), url("fonts/anirm.ttf");
+  src: local("anirm"), url("../fonts/anirm.ttf");
 }
 /*headers*/
 h1 {
