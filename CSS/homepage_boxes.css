@@ -1,9 +1,8 @@
 /*header pictures*/
 .responsive {
-  max-width: 80%;
+  max-width: 100%;
   min-width: 0;
-  max-height: 80%;
-  width: 80%;
+  max-height: 100%;
   object-fit: cover;
 }
 /*picture grid*/
