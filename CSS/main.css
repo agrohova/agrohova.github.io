@@ -37,6 +37,7 @@ body {
 }
 a {
   color: rgb(116, 17, 127);
+  text-decoration: none;
 }
 #pros {
   color:rgb(14, 106, 32)
