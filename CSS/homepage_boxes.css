@@ -94,6 +94,7 @@ background-color:rgb(116, 17, 127);
   max-height: 75%;
   object-fit: contain;
   border-radius: 10px;
+  display: block;
 }
 .articlecontainer2{
   display:flex;
@@ -115,6 +116,7 @@ background-color:rgb(116, 17, 127);
   max-height: 75%;
   object-fit: contain;
   border-radius: 10px;
+  display: block;
 }
 .articlecontainer3{
   display:flex;
@@ -137,6 +139,7 @@ background-color:rgb(116, 17, 127);
   max-height: 75%;
   object-fit: contain;
   border-radius: 10px;
+  display: block;
 }
 /*footer flexbox*/
 .footercontainer1{
