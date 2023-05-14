@@ -86,15 +86,15 @@ background-color:rgb(116, 17, 127);
   width: 250px;
   height: 200px;
   background-color: rgba(152, 70, 23, 0.110);
-  padding: 10px;
-  margin: 10px;
   border-radius: 10px;
 }
 .reviewimg{
-  filter: opacity(0.2) drop-shadow(rgba(152, 70, 23));
-  max-width: 100%;
+  filter: opacity(0.2);
+  filter: drop-shadow(rgba(152, 70, 23));
+  max-width: 50%;
   max-height: 100%;
-  object-fit: contain;
+  text-align: left;
+  border-radius: 10px;
 }
 .articlecontainer2{
   display:flex;
