@@ -149,6 +149,7 @@ background-color:rgb(116, 17, 127);
   justify-content: space-between;
   background-color:  gray; 
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 .footer1{
   width: 250px;
@@ -162,6 +163,7 @@ background-color:rgb(116, 17, 127);
   justify-content: space-between;
   background-color: gray; 
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 .footer2{
   width: 250px;
@@ -175,6 +177,7 @@ background-color:rgb(116, 17, 127);
   justify-content: space-between;
   background-color:  gray; 
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 .footer3{
   width: 250px;
