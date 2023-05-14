@@ -51,6 +51,7 @@
     align-items:center;
     text-align: left;
     }
+    /*article flexbox*/
     .articlecontainer1{
     flex-wrap: wrap;
     }
