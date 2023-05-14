@@ -59,7 +59,7 @@
 #review{
   width: 250px;
   height: 200px;
-  background-color: solid rgba(152, 70, 23, 0.352);
+  background-color: rgba(152, 70, 23, 0.352);
   padding: 10px;
   margin: auto;
 }
@@ -73,7 +73,7 @@
 #topo{
   width: 250px;
   height: 200px;
-  background-color: solid rgba(46, 97, 51, 0.325);
+  background-color: rgba(46, 97, 51, 0.325);
   padding: 10px;
   margin: auto;
 }
@@ -87,7 +87,7 @@
 #reportage{
   width: 250px;
   height: 200px;
-  background-color: solid rgba(132, 7, 59, 0.305);
+  background-color: rgba(132, 7, 59, 0.305);
   padding: 10px;
   margin: auto;
 }
