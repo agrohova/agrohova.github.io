@@ -59,9 +59,9 @@
 #review{
   width: 250px;
   height: 200px;
-  background-color: rgba(152, 70, 23, 0.352);
+  background-color: rgba(152, 70, 23, 0.142);
   padding: 10px;
-  margin: auto;
+  margin: 10px;
 }
 .articlecontainer2{
   display:flex;
@@ -73,9 +73,9 @@
 #topo{
   width: 250px;
   height: 200px;
-  background-color: rgba(46, 97, 51, 0.325);
+  background-color: rgba(46, 97, 51, 0.142);
   padding: 10px;
-  margin: auto;
+  margin: 10px;
 }
 .articlecontainer3{
   display:flex;
@@ -87,9 +87,9 @@
 #reportage{
   width: 250px;
   height: 200px;
-  background-color: rgba(132, 7, 59, 0.305);
+  background-color: rgba(132, 7, 59, 0.142);
   padding: 10px;
-  margin: auto;
+  margin: 10px;
 }
 /*footer flexbox*/
 .footercontainer1{
