@@ -147,7 +147,8 @@ background-color:rgb(116, 17, 127);
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  border-top: 2px gray; 
+  background-color:  gray; 
+  border-radius: 10px;
 }
 .footer1{
   width: 250px;
@@ -159,7 +160,8 @@ background-color:rgb(116, 17, 127);
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  border-top: 2px gray; 
+  background-color: gray; 
+  border-radius: 10px;
 }
 .footer2{
   width: 250px;
@@ -171,7 +173,8 @@ background-color:rgb(116, 17, 127);
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  border-top: 2px gray; 
+  background-color:  gray; 
+  border-radius: 10px;
 }
 .footer3{
   width: 250px;
