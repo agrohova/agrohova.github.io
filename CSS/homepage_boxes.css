@@ -100,7 +100,7 @@ background-color:rgb(116, 17, 127);
   display:flex;
   flex-direction: row;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 50px;
 }
 #topo{
@@ -121,7 +121,7 @@ background-color:rgb(116, 17, 127);
   display:flex;
   flex-direction: row;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 50px;
 }
 #reportage{
