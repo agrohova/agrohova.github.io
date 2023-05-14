@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: minmax(100px, auto);
-  overflow: hidden;
   grid-template-areas: 
   "hd hd hd hd hd"
   "hd hd hd hd hd"
@@ -12,7 +11,7 @@
   "ct ct ct ct sb"
 }
 .blogheader{
-  grid-area:hd;
+  grid-area: hd;
   background-image: url("..assets/images/pexels-stephan-seeber.jpg");
   max-width: 100%;
   max-height: 100%;
@@ -30,7 +29,7 @@
   padding: 30px;
   margin-bottom: 50px;
 }
-figure{
+.img1{
   border-radius: 8px;
   display: block;
   margin-left: auto;
