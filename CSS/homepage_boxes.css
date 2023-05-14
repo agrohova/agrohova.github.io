@@ -59,7 +59,7 @@
 #review{
   width: 250px;
   height: 200px;
-  border: 5px solid rgb(152, 70, 23);
+  background-color: solid rgba(152, 70, 23, 0.352);
   padding: 10px;
   margin: auto;
 }
@@ -73,7 +73,7 @@
 #topo{
   width: 250px;
   height: 200px;
-  border: 5px solid rgb(46, 97, 51);
+  background-color: solid rgba(46, 97, 51, 0.325);
   padding: 10px;
   margin: auto;
 }
@@ -87,7 +87,7 @@
 #reportage{
   width: 250px;
   height: 200px;
-  border: 5px solid rgb(132, 7, 59);
+  background-color: solid rgba(132, 7, 59, 0.305);
   padding: 10px;
   margin: auto;
 }
@@ -97,6 +97,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
+  border-top: 2px gray; 
 }
 .footer1{
   width: 250px;
@@ -108,6 +109,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
+  border-top: 2px gray; 
 }
 .footer2{
   width: 250px;
@@ -119,6 +121,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
+  border-top: 2px gray; 
 }
 .footer3{
   width: 250px;
