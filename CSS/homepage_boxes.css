@@ -49,11 +49,8 @@ text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
-#navbar:hover:not(.active) {
-background-color: #111;
-}
-.active {
-background-color: rgb(116, 17, 127);
+#navbar:hover {
+background-color:rgb(116, 17, 127);
 }
 /*title grid*/
 .homepagetitle{

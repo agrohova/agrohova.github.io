@@ -35,6 +35,9 @@ body {
   line-height: 1.2;
   text-align: justify;
 }
+a {
+  color: rgb(116, 17, 127);
+}
 #pros {
   color:rgb(14, 106, 32)
 }

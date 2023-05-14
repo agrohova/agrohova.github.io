@@ -90,7 +90,7 @@
     padding: 15px;
     margin-bottom: 50px;
     }
-    .img1 {
+    .figure {
     width: 100%;
     }
 }
@@ -159,7 +159,7 @@
         padding: 70px;
         margin-bottom: 50px;
     }
-    .img1 {
+    figure {
         width: 70%;
     }
 }
