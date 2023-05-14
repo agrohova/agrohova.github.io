@@ -147,40 +147,40 @@ background-color:rgb(116, 17, 127);
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  background-color: rgba(128, 128, 128, 0.260);
+  background-color: rgba(200, 200, 200, 0.260);
   border-radius: 10px;
   margin-bottom: 10px;
 }
 .footer1{
   width: 250px;
   height: 25px;
-  margin: auto;
+  margin: 10px;
 }
 .footercontainer2{
   display: flex;
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  background-color: rgba(128, 128, 128, 0.260);
+  background-color: rgba(172, 171, 171, 0.260);
   border-radius: 10px;
   margin-bottom: 10px;
 }
 .footer2{
   width: 250px;
   height: 25px;
-  margin: auto;
+  margin: 10px;
 }
 .footercontainer3{
   display: flex;
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  background-color:  rgba(128, 128, 128, 0.260); 
+  background-color:  rgba(130, 128, 128, 0.260); 
   border-radius: 10px;
   margin-bottom: 10px;
 }
 .footer3{
   width: 250px;
   height: 25px;
-  margin: auto;
+  margin: 10px;
 }
