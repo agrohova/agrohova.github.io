@@ -38,6 +38,7 @@
 }
 .button {
   background-color: rgb(116, 17, 127);
+  font-family: Montserrat;
   border: none;
   border-radius: 10px;
   color: white;
