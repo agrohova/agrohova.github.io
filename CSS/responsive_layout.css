@@ -42,9 +42,10 @@
     "hq"
     }
     .headerquote{
-    grid-area: hq
+    grid-area: hq;
     font-size: 26px;
     align-items:center;
+    text-align: left;
     }
     .articlecontainer1{
     flex-wrap: wrap;
